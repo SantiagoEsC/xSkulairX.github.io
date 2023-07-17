@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="styles/form.css">
+    <script src="https://apis.google.com/js/client:platform.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <form class="register-form">
+        <h1 class="title">Sign Up</h1>
+
+        <div class="line-subtitle-container">
+            <div class="line"></div>
+            <span class="subtitle">Sign up with</span>
+        </div>
+        <div class="button-container">
+          <button id="sign-in" onclick="signIn" class="google-button">
+              <img src="assets/img/Register/logo-google.png" alt="Google Icon" width="50" height="40">
+              <span class="button-text">Continue with Google</span>
+          </button>
+          <script src="./js/googleAuth.js" defer></script>
+          <button class="facebook-button">
+              <img src="assets/img/Register/logo-facebook.png" alt="Facebook Icon" width="25" height="25">
+              <span class="button-text">Continue with Facebook</span>
+          </button>
+      </div>
+      
+      <div class="or-container">
+        <span class="or-subtitle">Or</span>
+    </div>
+
+    <div class="input-container">
+      <label for="full-name" class="form-label">Full Name</label>
+      <input type="text" id="full-name" class="form-input">
+  </div>
+  <div class="email-container">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" id="email" class="form-input">
+</div>
+<div class="password-container">
+  <label for="password" class="form-label">Password</label>
+  <input type="password" id="password" class="form-input">
+</div>
+<div class="arrow-container">
+  <div class="arrow-circle">
+      <div class="arrow-icon"></div>
+  </div>
+</div>
+<div class="login-container">
+  <p class="login-text">Already have an account? <a href="#" class="login-link">Log in</a></p>
+</div>
+
+
+
+    </form>
+    <div class="image-container">
+      <img src="assets/img/Register/DrawKit Vector Illustration Animal & Pets (2).png" alt="Image">
+  </div>
+
+
+</body>
+</html>
