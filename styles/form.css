@@ -75,6 +75,7 @@
 }
 
 .google-button {
+  cursor: pointer;
   background-color: #ffffff;
 }
 
